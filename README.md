@@ -108,7 +108,7 @@ If you prefer to use Docker, you can run the application in a container:
 docker build -t quiz-app .
 ```
 
-2. **Run the container:**
+2. ***Run the container:***
 
 ```bash
 docker run -p 3000:3000 quiz-app
@@ -225,3 +225,6 @@ The following test cases can be used to validate the application functionality:
 - **Precondition**: Complete quiz with known correct/incorrect answers
 - **Steps**: Answer specific pattern of questions
 - **Expected**: Final score matches expected calculation (correct answers / total questions)
+
+
+End of report
