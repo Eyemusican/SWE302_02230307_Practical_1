@@ -41,3 +41,12 @@ _Last test run status: **Passed** ([test-results/.last-run.json](test-results/.l
 
 ![alt text](assets/image.png)
 
+## Real-time Development Notifications
+Our project automatically notifies the team via Slack when:
+-  Commits are ***pushed*** to the repository
+-  ***Tests are executed*** (57 Playwright tests)
+-  ***Test results*** - All tests PASSED in 9m 38s
+
+![alt text](assets/image1.png)
+
+This keeps the development team instantly informed about code changes and ensures all tests pass before deployment.
